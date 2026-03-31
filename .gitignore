@@ -1,3 +1,9 @@
+# Ignorar .venv en cualquier subcarpeta
+**/.venv/
+**/venv/
+**/node_modules/
+**/dist/
+**/.env
 # Byte-compiled / optimized / DLL files
 .venv/
 __pycache__/
