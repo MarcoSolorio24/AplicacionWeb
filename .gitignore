@@ -1,3 +1,4 @@
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -210,3 +211,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+**/[Nn]ode_modules/
+**/.venv/
+**/__pycache__/
+**/dist/
+.venv/
+backend/.venv/
+>>>>>>> d07dbc5 (Initial Porject: Fast API and React to Fornted)
