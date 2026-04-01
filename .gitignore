@@ -1,16 +1,5 @@
-# Ignorar .venv en cualquier subcarpeta
-**/.venv/
-**/venv/
-**/node_modules/
-**/dist/
-**/.env
 # Byte-compiled / optimized / DLL files
-.venv/
 __pycache__/
-node_modules/
-dist/
-.venv
-*.pyc
 *.py[codz]
 *$py.class
 
@@ -146,6 +135,11 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.venv/
+backend/.venv/
+**/node_modules/
+**/.venv/
+venv/
 .env
 .envrc
 .venv
